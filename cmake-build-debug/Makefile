@@ -48,10 +48,10 @@ RM = "/Users/andrejpistek/Library/Application Support/JetBrains/Toolbox/apps/CLi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Cplusplus_client"
+CMAKE_SOURCE_DIR = "/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Client_Cplusplus"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Cplusplus_client/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Client_Cplusplus/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Cplusplus_client/cmake-build-debug/CMakeFiles" "/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Cplusplus_client/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Client_Cplusplus/cmake-build-debug/CMakeFiles" "/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Client_Cplusplus/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Cplusplus_client/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Client_Cplusplus/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Cplusplus_client/fast:
 	$(MAKE) -f CMakeFiles/Cplusplus_client.dir/build.make CMakeFiles/Cplusplus_client.dir/build
 .PHONY : Cplusplus_client/fast
 
-main.o: main.cpp.o
+client.o: client.cpp.o
 
-.PHONY : main.o
+.PHONY : client.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Cplusplus_client.dir/build.make CMakeFiles/Cplusplus_client.dir/main.cpp.o
-.PHONY : main.cpp.o
+client.cpp.o:
+	$(MAKE) -f CMakeFiles/Cplusplus_client.dir/build.make CMakeFiles/Cplusplus_client.dir/client.cpp.o
+.PHONY : client.cpp.o
 
-main.i: main.cpp.i
+client.i: client.cpp.i
 
-.PHONY : main.i
+.PHONY : client.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Cplusplus_client.dir/build.make CMakeFiles/Cplusplus_client.dir/main.cpp.i
-.PHONY : main.cpp.i
+client.cpp.i:
+	$(MAKE) -f CMakeFiles/Cplusplus_client.dir/build.make CMakeFiles/Cplusplus_client.dir/client.cpp.i
+.PHONY : client.cpp.i
 
-main.s: main.cpp.s
+client.s: client.cpp.s
 
-.PHONY : main.s
+.PHONY : client.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Cplusplus_client.dir/build.make CMakeFiles/Cplusplus_client.dir/main.cpp.s
-.PHONY : main.cpp.s
+client.cpp.s:
+	$(MAKE) -f CMakeFiles/Cplusplus_client.dir/build.make CMakeFiles/Cplusplus_client.dir/client.cpp.s
+.PHONY : client.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Cplusplus_client"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... client.o"
+	@echo "... client.i"
+	@echo "... client.s"
 .PHONY : help
 
 

@@ -6,25 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Cplusplus_client/main.cpp
-sys/socket.h
--
-sys/types.h
--
-netinet/in.h
--
+/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Client_Cplusplus/client.cpp
 netdb.h
 -
 stdio.h
 -
-string.h
--
 stdlib.h
 -
-unistd.h
+string.h
 -
-errno.h
+sys/socket.h
+-
+zconf.h
 -
 arpa/inet.h
+-
+iostream
 -
 
