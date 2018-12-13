@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/andrejpistek/Documents/Dokumenty/Saxion (Applied Science)/LED (ETI 2)/Quarter 2/Software engineering project/Cplusplus_client/main.cpp
+sys/socket.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+netdb.h
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+errno.h
+-
+arpa/inet.h
+-
+
